@@ -16,8 +16,10 @@ html, body {
 /*.mobileHide                   /*For mobile only styling*/
 /*{ display: none;}*/
 
-/*.mobileShow                   /*For mobile only styling*/
-/*{ display: none;}*/
+.mobileShow {                   /*For mobile only styling*/
+  position:relative;
+  display: inline-block;
+}
 
 
 /* padded section */
