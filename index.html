@@ -23,6 +23,15 @@
    and (min-device-width : 320px)
    and (max-device-width : 480px){  .mobileHide { display: none;}}
   </style>
+  
+  <style type="text/css">
+   .mobileShow { display: none;}
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px){ .mobileShow { display: inline;}}
+  </style>
+  
 </head>
 <body>
 
@@ -222,7 +231,12 @@ Maintained Motorola Telexons, Digital Persona Biometrics, & NCR Fastlanes</h4>
 	<img src="images/sql.png" alt="SQL logo" />
 	
   </div>
-  <br /> <br />
+  
+  <div class="mobileShow">
+	<img class="center fit" src="images/capture3.png" alt="" />
+  </div>
+  
+  <br /> <br /> <br />
   <div id="footer" class="pad-section">
 		<div class="container">
 			<div class="row">
