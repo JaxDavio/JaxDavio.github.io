@@ -5,13 +5,16 @@ html, body {
   width: 100%;
 }
 
-/*img {
-    padding: 0;
+/*img {                       /*For centering the logos*/
+    /*padding: 0;
     display: block;
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
 }*/
+
+/*.mobileHide                   /*For mobile only styling*/
+/*{ display: none;}*/
 
 /* padded section */
 .pad-section {
