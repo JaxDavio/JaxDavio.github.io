@@ -21,13 +21,6 @@ html, body {
   display: inline-block;
 }*/
 
-@media (min-width: 767px) 
-{
-    ul.nav li.dropdown:hover > ul.dropdown-menu 
-    {
-       display: block;
-    }
-}
 
 /* padded section */
 .pad-section {
