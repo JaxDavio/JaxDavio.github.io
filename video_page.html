@@ -1,35 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <title>Google Maps User Location</title>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <style>
-    html, body, #map_canvas{width:100%;height:100%;}
-    </style>
-  </head>
-  <body onload="locate()">
-    <div id="map_canvas"></div>
-  </body>
-  <script>
-    var im = 'http://www.robotwoods.com/dev/misc/bluecircle.png';
-    function locate(){
-        navigator.geolocation.getCurrentPosition(initialize,fail);
-    }
-
-    function initialize(position) {
-        var myLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-        var mapOptions = {
-          zoom: 4,
-          center: myLatLng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of HTML5 Geolocation</title>
+<script type="text/javascript">
+    function showPosition(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(function(position){
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                document.getElementById("result").innerHTML = positionInfo;
+            });
+        } else{
+            alert("Sorry, your browser does not support HTML5 geolocation.");
         }
-        var map = new google.maps.Map(document.getElementById('map_canvas'),
-                                      mapOptions);
-        var userMarker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            icon: im
-        });
-      }
+    }
+</script>
+</head>
+<body>
+    <div id="result">
+        <!--Position information will be inserted here-->
+    </div>
+    <button type="button" onclick="showPosition();">Show Position</button>
+</body>
+</html>                                		
