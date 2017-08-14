@@ -108,7 +108,7 @@ html, body {
 #finish {
   background: url(../images/home2.jpg) no-repeat center center fixed; 
   display: table;
-  height: 700px;
+  height: 600px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
