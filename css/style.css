@@ -1,0 +1,140 @@
+﻿
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*img {                       /*For centering the logos*/
+    /*padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}*/
+
+/*.mobileHide                   /*For mobile only styling*/
+/*{ display: none;}*/
+
+/*.mobileShow {                   /*For mobile only styling*/
+  /*position:relative;
+  display: inline-block;
+}*/
+
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  padding: 0;
+  font-family: 'Narkisim', sans-serif;                 /*These bottom three added for shadowing*/
+  text-shadow: 2px 2px 7px black/*#fff*/, 4px 4px 9px green/*#000*/;
+  margin: -2% 0 0 auto;
+}
+.text-vcenter h3 {
+  font-family: 'Narkisim', sans-serif;                 /*These bottom three added for shadowing*/
+  text-shadow: 2px 2px 7px black/*#fff*/, 4px 4px 9px green/*#000*/;
+  /*margin: -2% 0 0 auto;*/
+}
+
+/* additional sections */
+#home {
+  background: url(../images/home1.jpeg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+  background: url(../images/home3.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 1000px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#information figure  {                               /*Frame for my photo*/
+	border: 1.5em black solid;
+	padding: 4px;
+}   
+  
+#information .panel {
+  opacity: 0.85;
+}
+
+#finish {
+  background: url(../images/home2.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 700px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;                                                /*Changed vertical size from 500px*/
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+footer .container {
+	/*background-color: #306d9f;
+	color: white;*/
+}
+/*footer .container-copy{
+	background-color: gainsboro;
+	color: black;
+}*/
+
+
