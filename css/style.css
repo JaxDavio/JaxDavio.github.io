@@ -117,7 +117,7 @@ html, body {
   background-size: cover;                                                /*Changed vertical size from 500px*/
 }
 
-finish .aw-widget-content {
+finish .aw-widget-current-inner {
 	text-align: center;
 }
 
