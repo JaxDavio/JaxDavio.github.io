@@ -87,7 +87,7 @@ html, body {
 #information {
   background: url(../images/home3.jpg) no-repeat center center fixed; 
   display: table;
-  height: 800px;
+  height: 1000px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -108,7 +108,7 @@ html, body {
 #finish {
   background: url(../images/home2.jpg) no-repeat center center fixed; 
   display: table;
-  height: 500px;
+  height: 700px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
