@@ -117,10 +117,8 @@ html, body {
   background-size: cover;                                                /*Changed vertical size from 500px*/
 }
 
-#weather {
+finish .aw-widget-legal {
 	margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
     padding: 10px;
 }
 
