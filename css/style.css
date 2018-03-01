@@ -51,6 +51,11 @@ html, body {
   /*margin: -2% 0 0 auto;*/
 }
 
+/* NAME */
+.text-vcenter:hover{
+transform: scale(1.2) rotate(180deg);
+}
+
 /* additional sections */
 #home {
   background: url(../images/home1.jpeg) no-repeat center center fixed; 
